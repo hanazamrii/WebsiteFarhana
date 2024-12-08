@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Experiences - Nur Farhana</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-image: url('image/hellokitty2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            color: #5e2e60;
+            line-height: 1.8;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(169, 119, 155, 0.9);
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar button {
+            background: linear-gradient(45deg, #5e2e60, #8a3b84);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+        }
+
+        .navbar button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar button.active {
+            background: linear-gradient(45deg, #ffcccb, #ff80ab);
+            color: #5e2e60;
+            box-shadow: 0px 4px 10px rgba(255, 80, 120, 0.5);
+        }
+
+    
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(90deg, #a9779b, #fbe1f6);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            margin-bottom: 30px;
+            border-radius: 0 0 15px 15px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #fff;
+            font-weight: bold;
+        }
+
+       
+        .experience {
+            margin-bottom: 40px;
+            text-align: justify;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .experience p {
+            font-size: 1.1em;
+            color: #5e2e60;
+            line-height: 1.8;
+            margin-bottom: 20px; 
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .image {
+            width: 32%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            border: 5px solid #a9779b;
+        }
+
+        .image:hover {
+            transform: scale(1.05);
+        }
+
+       
+        footer {
+            background-color: #5e2e60;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='biodata.html'">About Me</button>
+        <button onclick="window.location.href='eduinstitute.html'">Education</button>
+        <button onclick="window.location.href='experiences.html'" class="active">Experiences</button>
+        <button onclick="window.location.href='family.html'">Family</button>
+        <button onclick="window.location.href='friends.html'">Friends</button>
+    </div>
+
+ 
+    <header>
+        <h1>My Experiences  ⸜(｡˃ ᵕ ˂ )⸝♡</h1>
+    </header>
+
+  
+    <div class="experience">
+        <p>On my 20th birthday, I had an amazing celebration with my friends. They gave me a special gift, a LEGO set that I’ve always wanted. It was such a thoughtful and unexpected present. I’ve always loved building things, so receiving a LEGO set made my day extra special. We spent hours building the set together, enjoying each other’s company. It was a beautiful way to mark such an important milestone in my life, and it really made my birthday unforgettable. My friends knew exactly what would bring a smile to my face, and I couldn’t have asked for a better gift.</p>
+        <div class="image-gallery">
+            <img src="image/lego.jpeg" alt="lego" class="image">
+            <img src="image/celebrate.jpeg" alt="celebrate" class="image">
+            <img src="image/buatlego.jpg" alt=" buatlego" class="image">
+        </div>
+    </div>
+
+    
+    <div class="experience">
+        <p>Later in the day, we went to KLCG Cafe to enjoy some delicious food. The atmosphere there was cozy and relaxing, and the food was absolutely amazing! We ordered a variety of dishes, each bursting with flavor. The staff were friendly, and the overall vibe of the café made it the perfect spot to unwind and enjoy good food with even better company. I loved the peaceful ambiance, which was a perfect contrast to the hustle and bustle of the city. It was the ideal place to have long conversations and relax after a fun day of celebrating my birthday. We all agreed that we would return for more food adventures soon!</p>
+        <div class="image-gallery">
+            <img src="image/burger.jpeg" alt="burger" class="image">
+            <img src="image/klcg.jpeg" alt="klcg" class="image">
+            <img src="image/cromboloni.jpeg" alt="cromboloni" class="image">
+        </div>
+    </div>
+
+    
+    <div class="experience">
+        <p>The next day, my friend and I decided to explore Pasar Seni and do some café hunting. We spent the day wandering through the vibrant streets, admiring the local art, and checking out the unique cafés. The area was full of life, with street vendors selling handmade goods and artwork. We stumbled upon several hidden cafés tucked away in corners, each with its own charm and style. It was a fun and relaxing day full of adventure, and we discovered some hidden gems along the way. We had such a great time exploring, and I can’t wait to go back and find even more places to visit next time.</p>
+        <div class="image-gallery">
+            <img src="image/makonn.jpeg" alt="makonn" class="image">
+            <img src="image/meatpasarseni.jpeg" alt="meetpasarseni" class="image">
+            <img src="image/wdamia.jpeg" alt="wdamia" class="image">
+        </div>
+    </div>
+
+    
+</body>
+</html>

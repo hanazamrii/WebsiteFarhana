@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Farhana's Biodata</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-image: url('image/hellokitty2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            color: #5e2e60;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+       
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(169, 119, 155, 0.9);
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar button {
+            background: linear-gradient(45deg, #5e2e60, #8a3b84);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+        }
+
+        .navbar button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar button.active {
+            background: linear-gradient(45deg, #ffcccb, #ff80ab);
+            color: #5e2e60;
+            box-shadow: 0px 4px 10px rgba(255, 80, 120, 0.5);
+        }
+
+        
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(90deg, #a9779b, #fbe1f6); 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 50px; 
+            margin-bottom: 30px;
+            border-radius: 0; 
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        
+        section {
+            background-color: #ffffff;
+            max-width: 800px;
+            margin: 40px auto 20px auto; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #5e2e60;
+            border-bottom: 2px solid #a9779b;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .highlight {
+            font-size: 18px;
+            font-weight: bold;
+            color: #a9779b;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            gap: 10px;
+        }
+
+        .image-gallery img {
+            width: 48%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: 5px solid #a9779b;
+        }
+
+       
+        .next-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #a9779b;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+
+        .next-button:hover {
+            background-color: #5e2e60;
+        }
+
+        .next-button:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <div class="navbar">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='biodata.html'"class="active">About Me</button>
+        <button onclick="window.location.href='eduinstitute.html'">Education</button>
+        <button onclick="window.location.href='experience.html'">Experiences</button>
+        <button onclick="window.location.href='family.html'">Family</button>
+        <button onclick="window.location.href='friends.html'">Friends</button>
+    </div>
+
+    <header>
+        <h1>⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ Facts About Me ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆</h1>
+    </header>
+
+
+    
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="image-gallery">
+            <img src="image/hi.jpeg" alt="hi" />
+            <img src="image/makan.jpeg" alt="makan" />
+        </div>
+
+        <p>
+            Hello! My name is <span class="highlight">Nur Farhana binti Zamri</span>, and I am 20 years old. I’m currently in my final semester of a diploma in Information Management and preparing to continue with a degree in Records Management next year 🎓.
+        </p>
+        <p>
+            As an introvert, I recharge by spending quiet time alone. When I’m feeling down, I like to enjoy a meal by myself 🍜. 
+        </p>
+
+        <div class="image-gallery">
+            <img src="image/shopping.jpeg" alt="shopping" />
+            <img src="image/kucing.jpeg" alt="kucing" />
+        </div>
+
+        <p>
+            My favorite colors are pink and beige, which bring calm and joy into my life. For fun, I love <span class="highlight">cycling</span> and <span class="highlight">hiking</span> 🚴‍♀️. These outdoor activities allow me to stay active and appreciate nature’s beauty.
+        </p>
+        <p>
+            Shopping in the city 🏙️ is another passion of mine. Exploring stores and discovering styles adds excitement to my days. Being an only child has made me independent and thoughtful, and I’m excited for the journey ahead in records management! 🌟
+        </p>
+    </section>
+
+
+</body>
+</html>

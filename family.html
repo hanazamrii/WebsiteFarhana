@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Farhana's Family</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-image: url('image/hellokitty2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #fbe1f6;
+            margin: 0;
+            padding: 0;
+            color: #5e2e60;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(169, 119, 155, 0.9);
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar button {
+            background: linear-gradient(45deg, #5e2e60, #8a3b84);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+        }
+
+        .navbar button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar button.active {
+            background: linear-gradient(45deg, #ffcccb, #ff80ab);
+            color: #5e2e60;
+            box-shadow: 0px 4px 10px rgba(255, 80, 120, 0.5);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(90deg, #a9779b, #fbe1f6);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 50px; /* To avoid navbar overlap */
+            margin-bottom: 30px;
+            border-radius: 0 0 15px 15px;
+        }
+
+        header h1 {
+            font-size: 1.8em;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #a9779b;
+            font-size: 1.6em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #5e2e60;
+            line-height: 1.6;
+        }
+
+        .family {
+            font-size: 1.2em;
+            color: #a9779b;
+            text-align: center;
+        }
+
+        .image {
+            width: 350px;
+            height: 250px;
+            object-fit: cover;
+            margin: 20px 0;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border: 5px solid #a9779b;
+            border-radius: 15px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .left-image, .right-image {
+            width: 45%;
+        }
+
+        .center-image {
+            margin-top: 20px;
+            width: 350px;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 5px solid #a9779b;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .family-content {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .box {
+            width: 45%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #a9779b;
+            color: #ffffff;
+            font-size: 14px;
+            border-radius: 15px 15px 0 0;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='biodata.html'">About Me</button>
+        <button onclick="window.location.href='eduinstitute.html'">Education</button>
+        <button onclick="window.location.href='experiences.html'">Experiences</button>
+        <button onclick="window.location.href='family.html'" class="active">Family</button>
+        <button onclick="window.location.href='friends.html'">Friends</button>
+    </div>
+
+    <header>
+        <h1>My Family ⸜(｡˃ ᵕ ˂ )⸝♡</h1>
+    </header>
+
+    <section id="family">
+        <div class="image-container">
+            <img src="image/ibu and ayah.jpeg" alt="ibu and ayah" class="left-image image">
+            <img src="image/family.jpeg" alt="family" class="right-image image">
+        </div>
+        
+        <img src="image/raya.jpeg" alt="raya" class="center-image image">
+
+        <div class="family-content">
+            <div class="box">
+                <p>I am the only child in my family and I live in Selangor with my wonderful parents. My mother is from Perak, and she brings warmth, love, and a sense of comfort to our home. My father is from Kelantan, and he has been a strong and caring figure in my life. They have both supported me endlessly in everything I do, and I am grateful for the love and lessons they’ve shared.</p>
+            </div>
+            <div class="box">
+                <p>Being an only child, I’ve grown up with strong family values, independence, and the close bond that we share. We spend a lot of quality time together, whether it’s during family dinners, celebrations, or just having casual conversations. I am truly blessed to have such supportive and loving parents who make my world a better place. 💖</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Farhana's Education Journey</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-image: url('image/hellokitty2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #fbe1f6;
+            margin: 0;
+            padding: 0;
+            color: #5e2e60;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(169, 119, 155, 0.9);
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar button {
+            background: linear-gradient(45deg, #5e2e60, #8a3b84);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+        }
+
+        .navbar button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar button.active {
+            background: linear-gradient(45deg, #ffcccb, #ff80ab);
+            color: #5e2e60;
+            box-shadow: 0px 4px 10px rgba(255, 80, 120, 0.5);
+        }
+
+    
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(90deg, #a9779b, #fbe1f6);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            margin-bottom: 30px;
+            border-radius: 0;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+   
+        section {
+            background-color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #5e2e60;
+            border-bottom: 2px solid #a9779b;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .school-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .school-section {
+            width: 48%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .school-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+            border: 5px solid #a9779b;
+        }
+
+        .school-image:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #a9779b;
+            color: white;
+            font-size: 14px;
+            border-radius: 15px 15px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <div class="navbar">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='biodata.html'">About Me</button>
+        <button onclick="window.location.href='eduinstitute.html'"class="active">Education</button>
+        <button onclick="window.location.href='experience.html'">Experiences</button>
+        <button onclick="window.location.href='family.html'">Family</button>
+        <button onclick="window.location.href='friends.html'">Friends</button>
+    </div>
+
+
+    <header>
+        <h1>My Education Journey ⸜(｡˃ ᵕ ˂ )⸝♡</h1>
+    </header>
+
+    
+    <section id="education">
+        <h2>Education Journey</h2>
+
+        <div class="school-container">
+            <div class="school-section" id="tabika-section">
+                <h3>Tabika Kemas (2009 - 2010)</h3>
+                <img class="school-image" src="image/tabika kemas.jpg" alt="tabika kemas">
+                <p>Tabika KEMAS was located at Mentari Court Apartment, Block C at Jalan PJS 8/9, Mentari Court, 46150 Petaling Jaya, Selangor. Tabika Kemas is where I started my early education and learning the basics of reading and writing.</p>
+            </div>
+
+            <div class="school-section" id="skkl-section">
+                <h3>Sekolah Kebangsaan Kampung Lindungan (2011 - 2016)</h3>
+                <img class="school-image" src="image/skkl.jpg" alt="skkl">
+                <p>Sekolah Kebangsaan Kampung Lindungan was located at Jalan PJS 10/11, 46150 Petaling Jaya, Selangor.This is the place where I grew up academically and socially, making lifelong friends.</p>
+            </div>
+        </div>
+
+        <div class="school-container">
+            <div class="school-section" id="smk18-section">
+                <h3>Sekolah Menengah Kebangsaan Seksyen 18 (2017 - 2021)</h3>
+                <img class="school-image" src="image/smks18.jpg" alt="smks18">
+                <p>Sekolah Menengah Kebangsaan Seksyen 18, Shah Alam was where I completed my secondary education and began to explore my interests in Information Management.</p>
+            </div>
+
+            <div class="school-section" id="uitm-section">
+                <h3>UiTM Rembau (2022 - Present)</h3>
+                <img class="school-image" src="image/uitm.jpg" alt="uitm">
+                <p>Currently, I'm studying at UiTM Rembau, pursuing a diploma in Information Management, and preparing for my degree in Records Management.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
